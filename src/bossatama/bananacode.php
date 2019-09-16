@@ -11,7 +11,7 @@
 // エラーを出力する
 ini_set('display_errors', "On");
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '../../../vendor/autoload.php';
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;

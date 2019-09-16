@@ -9,18 +9,10 @@
             "email": "kando@bananacode.jp"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "monolog/monolog": "@stable",
-    },
-    "keywords": ["オレオレ", "自作"],
-    "require": {
-        "php": ">=5.3.2"
-    },
+    "require": {"monolog/monolog": "@stable"},
     "autoload": {
-        "psr-4": {
-            "bossatama\\": "src"
+        "psr-0": {
+            "bossatama\\": "src/"
         }
-    },
-    "include-path": ["src/"]
+    }
 }
