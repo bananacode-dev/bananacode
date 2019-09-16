@@ -11,6 +11,16 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "monolog/monolog": "@stable"
-    }
+        "monolog/monolog": "@stable",
+    },
+    "keywords": ["オレオレ", "自作"],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "bossatama\\": "src"
+        }
+    },
+    "include-path": ["src/"]
 }
