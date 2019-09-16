@@ -1,0 +1,16 @@
+{
+    "name": "bossatama/bananacode",
+    "description": "I will try test composer repositories.",
+    "type": "bananacode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenichi Ando",
+            "email": "kando@bananacode.jp"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "@stable"
+    }
+}
